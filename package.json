@@ -1,7 +1,8 @@
 {
   "name": "ifcon-extractor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
+  "bin": "cli.js",
   "license": "GPL-3.0",
   "url": "https://github.com/owner/project/issues",
   "email": "jesse@itjesse.com",
