@@ -1,6 +1,6 @@
 {
   "name": "ifcon-extractor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "bin": "cli.js",
   "license": "GPL-3.0",
@@ -13,9 +13,7 @@
   },
   "devDependencies": {
     "@types/node": "^17.0.19",
-    "typescript": "^4.5.5"
-  },
-  "dependencies": {
+    "typescript": "^4.5.5",
     "ts-node": "^10.5.0"
   }
 }
