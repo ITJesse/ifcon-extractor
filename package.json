@@ -1,0 +1,20 @@
+{
+  "name": "ifcon-extractor",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "GPL-3.0",
+  "url": "https://github.com/owner/project/issues",
+  "email": "jesse@itjesse.com",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "start": "ts-node src/index",
+    "prepack": "yarn build"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.19",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "ts-node": "^10.5.0"
+  }
+}
