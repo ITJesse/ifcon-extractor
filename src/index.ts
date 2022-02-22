@@ -29,7 +29,6 @@ fileStream.on('data', (chunk: Buffer) => {
   const imgEndIndicator = detectImgStop(hex)
   if (imgEndIndicator && imgEndIndicator.imgType === imageType) {
     console.log(`${imgEndIndicator.imgType} ended at ${bufferSize * index}`)
-    // console.log(imgEndIndicator)
     imageType = null
     const ended = Buffer.from(
       Buffer.from(chunk)
