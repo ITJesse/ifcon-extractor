@@ -2,7 +2,7 @@
 
 A tool for unpacking iFAction Game Maker resource file.
 
-**Only png and jpeg is supported now.**
+**Only png and jpeg are supported now.**
 
 ## Usage
 
